@@ -4,8 +4,8 @@
 int main(void)
 {
 	double a,h=0.001,x=0,f=1.0,n=0,m=0;
-	scanf("%lf",&a);
-
+	/*scanf("%lf",&a);*/
+	a=2;
 	
 	printf("x=%f y=%f\n",x,a);
 	f*=(1.0-h+h*h/2.0);
