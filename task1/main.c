@@ -21,7 +21,7 @@ int main(void)
 		f*=(1.0-h+h*h/2.0);
 		m=f*a;
 		x+=h;
-		printf("x=%f y=%f\n",x,m);
+		printf("x=%f y=%.15f\n",x,m);
 	}
 
 	return 0;
